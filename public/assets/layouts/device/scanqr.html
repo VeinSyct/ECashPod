@@ -1,0 +1,82 @@
+<meta name="viewport" content="width = device-width, initial-scale = 1, minimum-scale = 1, maximum-scale = 1, user-scalable = 0, viewport-fit = cover, shrink-to-fit = no">
+<link rel="stylesheet" href="assets/css/style.css">
+<div class="calc-main-container">
+    <div class="calc-close calc-red-button">✖︎</div>
+    <header>
+        <h2>Eℂash Pod</h2>
+    </header>
+</div>
+<div class="calc-center">
+    <div class="calc-display-qr" >
+        <div class="progress-bar-cont">
+            <input class="progress-bar" type="range" value="0" step=".01" min="0" max="100"/>
+        </div>
+        <div class="qr-scanner"></div>
+    </div>
+</div>
+<div class="calc-loading" style="top: 14px;"></div>
+<div id="api-404" hidden></div>
+<script src="./assets/js/index.js"></script>
+<script src="./assets/js/page.js"></script>
+<script>
+    let openApp = (d) => {
+        scanQr({});
+    };
+    _uz = Object.assign(_uz, { e: document.querySelector(".calc-close") });
+    if (_uz.e) {
+        _uz.e.addEventListener("click", (e) => {
+            loadPage({ shells: ["settings", "home", "options"], scroll: 2 });
+        });
+    };
+    document.querySelector(".calc-loading").style.display = "block";
+</script>
+<script src="assets/js/qr.reader.js"></script>
+<script>
+    _uz.z = { qrScan: { arr: [], hashes: [] }, digit: { height: 12 }, slider: { single: {} } };
+    _uz.qr = { length: 72, delay: 128, interval: 0, hash: "354h58t7854t3665p58s12&35784*457*366e323c3v987a23u789l3654t36$3675w4545e4b1124$66a8783p3315p35==" };
+    window.scanQr = function(d) {
+        _uz.qrReader = _uz.qrReader ? _uz.qrReader : {};
+        if (!_uz.qrReader.JsQR) {
+            _uz.qrReader.JsQR = new JsQRScanner(onScan);
+            _uz.qrReader.JsQR.setSnapImageMaxSize(300);
+            if (_uz.qr.interval !== undefined) _uz.qrReader.JsQR.setScanInterval(_uz.qr.interval);
+            d.e = document.querySelector(".qr-scanner");
+            if (d.e) _uz.qrReader.JsQR.appendTo(d.e);
+        }
+        setTimeout(() => {            
+            document.querySelector(".calc-loading").style.display = "none";
+        }, 1800);
+    };
+    window.onScan = function(s) {
+        if (!_uz.z.qrScan.arr.includes(s)) {
+            s = s.replace(/[!\"#$%&]/g, ",").split(",");
+            let j = s[0];
+            s = s.join(",");
+            for (let i = 81; i <= 90; i++)
+                s = s.replace(new RegExp(String.raw`${String.fromCharCode(i)}`, "g"), String.fromCharCode(i - 33));
+            _uz.z.qrScan.arr.push(j + s.slice(j.length));
+            for (let i = 0, j; i < _uz.z.qrScan.arr.length; i++) {
+                j = _uz.z.qrScan.arr[i].split(",");
+                _uz.z.qrScan.hashes[j[2]] = j[0];
+                _uz.z.qrScan.hlen = j[1];
+            }
+            let p = document.getElementsByClassName("progress-bar")[0];
+            if (_uz.z.qrScan.arr.length > 1 && p) {
+                if (!_uz.qrReader.progress) {
+                    _uz.qrReader.progress = { e: p };
+                    if (_uz.qrReader.progress.e) {
+                        _uz.qrReader.progress.e.style.display = "block";
+                        _uz.qrReader.progress.e.max = _uz.z.qrScan.hlen;
+                    }
+                }
+                _uz.qrReader.progress.e.value = Object.keys(_uz.z.qrScan.hashes).length;
+            }
+            _uz.api.contentWindow.postMessage({ action: "ecash-api-hash-assemble", qrScan: _uz.z.qrScan }, _uz.api.src);
+        };
+    };
+    window.JsQRScannerReady = function(d) {
+        _uz.z.qrScan.ready = !0;
+    };
+    document.getElementById("api-404").appendChild(_uz.api);
+    _uz.qrhash({ hash: _uz.qr.hash });
+</script>
