@@ -6,11 +6,27 @@ The Future of Digital Cash for Everyday Commerce and Transportation
 ![Offline](https://img.shields.io/badge/offline-supported-blue)
 ![License](https://img.shields.io/badge/license-open--source-lightgrey)
 
-ECashPod is a production ready, QR based point of sale system that brings secure, instant, and offline capable digital cash to real world commerce. Designed for small businesses, transportation systems, public markets, kiosks, and everyday transactions, ECashPod redefines how digital money works: fast, reliable, and independent of traditional banking systems.
+ECashPod is a production ready, QR based point of sale system designed to enable fast, secure, and offline capable digital cash transactions in real world environments. It is built for small merchants, transportation systems, public markets, kiosks, and community level commerce where traditional banking infrastructure is limited or unavailable.
+
+The system is optimized for real world conditions such as unstable connectivity, high transaction volume, and low cost hardware deployment.
 
 The ECashPod orange theme was created as a presentation grade visual identity for institutional demonstrations with UnionBank of the Philippines, shaping a distinct fintech aesthetic aligned with banking environments and professional financial showcases.
 
-Powered by a revolutionary entropy chaos algorithm, ECashPod enables transactions without blockchain, cryptographic keys, or centralized ledgers, giving merchants, operators, and developers a truly offline first digital cash ecosystem.
+Powered by a deterministic entropy chaos model, ECashPod enables transactions without blockchain systems, cryptographic networks, or centralized ledgers, focusing instead on direct, device level value exchange designed for offline execution.
+
+---
+
+## System Overview
+
+ECashPod operates as a peer based transaction system where value is transferred directly between devices using QR based data exchange.
+
+Each transaction is self contained, meaning it does not require continuous server validation or external network dependency once initialized.
+
+The system is designed around three core principles:
+
+- Offline first execution
+- Deterministic value transfer
+- Device level transaction integrity
 
 ---
 
@@ -18,104 +34,112 @@ Powered by a revolutionary entropy chaos algorithm, ECashPod enables transaction
 
 ### Screenshot #1 - Settings
 
-Displays account number, protocol number, account name, currency, and account information.
+Displays account configuration including account number, protocol identifier, account name, and selected currency environment.
 
-<img width="830" height="468" alt="Screenshot 2026-05-20 222059" src="https://github.com/user-attachments/assets/a8f3dec9-70ad-400b-aed7-4df7981ba25f" />
+<img width="830" height="468" alt="Settings" src="https://github.com/user-attachments/assets/a8f3dec9-70ad-400b-aed7-4df7981ba25f" />
 
 ### Screenshot #2 - Balance
 
-Displays the selected currency balance.
+Shows real time local balance representation based on the selected currency profile.
 
-<img width="831" height="469" alt="Screenshot 2026-05-20 222050" src="https://github.com/user-attachments/assets/58413da8-e238-4ff4-a399-d71fdeab30ed" />
+<img width="831" height="469" alt="Balance" src="https://github.com/user-attachments/assets/58413da8-e238-4ff4-a399-d71fdeab30ed" />
 
 ### Screenshot #3 - Options
 
-Share account QR codes, scan QR codes, and view transaction history.
+Provides access to QR generation, QR scanning, and transaction history tracking for audit and user verification.
 
-<img width="828" height="466" alt="Screenshot 2026-05-20 222109" src="https://github.com/user-attachments/assets/7ba13705-9ffb-4543-91d3-670119f22726" />
+<img width="828" height="466" alt="Options" src="https://github.com/user-attachments/assets/7ba13705-9ffb-4543-91d3-670119f22726" />
 
 ---
 
 ## Key Highlights
 
-### Real World Adoption
+### Real World Deployment Focus
 
-- Designed for retail stores, kiosks, transportation systems, and local commerce.
-- Ideal for sari sari stores, sidewalk vendors, public markets, and small businesses.
-- Built for daily high volume transactions in real world environments.
+ECashPod is designed for environments where traditional payment infrastructure is either too expensive, too slow, or unavailable.
 
-### QR Based Cash Transactions
+It is suitable for:
 
-- Customers scan or present QR codes for instant payments.
-- Transfers execute through splitting and merging e cash structures, delivering the speed and convenience of physical cash.
+- Micro retail environments
+- Informal vendors and sidewalk stalls
+- Public transport fare systems
+- Rural commerce ecosystems
+- Temporary or mobile business setups
+
+### Transaction Model
+
+- QR based peer to peer transfer system
+- Instant settlement at device level
+- No continuous internet requirement during transaction flow
+- Designed for low friction user experience
 
 ### Offline First Architecture
 
-- Works 100% offline, ideal for remote areas, rural markets, off grid locations, and crowded public environments.
-- Transactions complete without internet, cloud servers, or network validation.
-- Supports direct device to device QR and optical transfers with deterministic integrity.
+ECashPod is fully operational in offline mode:
 
-### Security You Can Trust
+- No cloud dependency for transaction execution
+- No persistent network requirement
+- Local validation and deterministic processing
+- Suitable for disconnected or intermittent environments
 
-- E cash exists as spatial constructs inside a virtual environment.
-- Inactive e cash collapses into entropy, preventing duplication, forgery, or double spending.
-- Data only re emerges at the correct virtual address using the entropy chaos algorithm.
-- No blockchain, cryptography, or centralized accounts required.
+### Security Model
+
+Instead of relying on traditional cryptographic ledger systems, ECashPod uses a deterministic structural model where:
+
+- Value states are locally resolved
+- Transaction integrity is enforced at device level
+- Double spend prevention is handled through structural state transitions
+- Inactive states collapse into non-reusable forms within the system model
 
 ---
 
 ## How It Works
 
-### 1. Splitting and Merging
+### 1. Value Splitting and Transfer
 
-- Value is structural rather than numeric.
-- Transfers involve splitting e cash from the sender and merging it into the recipient's virtual environment.
+Value is not treated purely as a number but as a structured state that can be divided and reassigned between participants.
 
-### 2. Spatial Virtual Addressing
+### 2. Device Level Resolution
 
-- Every e cash unit has a unique virtual location.
-- Data appears only when the correct address is resolved.
+Each device maintains its own local transaction environment where incoming and outgoing transfers are resolved.
 
-### 3. Double Spend Prevention
+### 3. Peer Exchange via QR
 
-- Once merged into the recipient's structure, the sender no longer retains the original instance.
-- Eliminates double spending without ledgers or blockchains.
+Transactions are executed through QR payload exchange between sender and receiver devices.
 
-### 4. Offline Optical Transfer
+### 4. State Transition Integrity
 
-- QR codes carry transfer payloads.
-- Transactions are self contained, secure, and deterministic.
+Once a transfer is completed, the originating state is consumed and cannot be reused, preventing duplication.
 
 ---
 
-## Why Developers Love ECashPod
+## Why ECashPod Is Different
 
-- Open source, modular, and highly integratable for wallets, merchant platforms, and transportation systems.
-- Lightweight and deterministic, suitable for web, mobile, and embedded devices.
-- Offline first design ensures resilience in remote, high traffic, or low connectivity environments.
-- Extensible for new platforms, loyalty programs, and experimental financial infrastructure.
+Unlike traditional payment systems, ECashPod does not depend on:
+
+- Central banking rails
+- Blockchain confirmation layers
+- Continuous internet connectivity
+- External clearing systems
+
+Instead, it focuses on:
+
+- Local execution
+- Direct exchange
+- Offline resilience
+- Low infrastructure dependency
 
 ---
 
-## Why ECashPod Matters
+## Real World Use Cases
 
-- Creates a practical foundation for offline capable digital fiat systems.
-- Designed for real world accessibility and low infrastructure environments.
-- Enables reliable commerce beyond traditional banking limitations.
-- Supports communities where internet connectivity is inconsistent or unavailable.
-
----
-
-## Use Cases
-
-- Retail Stores and Small Businesses
-- Sari Sari Stores and Public Market Vendors
-- Kiosks and Vending Machines
-- Jeepney Fare Collection
-- Bus and Train Ticketing
-- Rural and Off Grid Communities
-- Community Events and Temporary Stalls
-- Disaster Relief and Emergency Transactions
+- Jeepney and bus fare collection systems
+- Train and public transit payments
+- Sari sari store transactions
+- Street vendor micro payments
+- Rural financial inclusion systems
+- Emergency and disaster relief commerce
+- Temporary market setups and events
 
 ---
 
@@ -124,11 +148,9 @@ Share account QR codes, scan QR codes, and view transaction history.
 ### Architecture
 
 ```text
-[Merchant Device] <--QR--> [Customer Device]
-      |                        |
-      V                        V
-   Split and Merge       Split and Merge
-  Entropy Chaos Core    Entropy Chaos Core
-      |                        |
-      --------------------------
-              Optional Sync
+[Merchant Device] <--QR Exchange--> [Customer Device]
+        |                                 |
+        V                                 V
+   Local Transaction Core        Local Transaction Core
+        |                                 |
+        -------- Deterministic State Layer --------
