@@ -8,7 +8,7 @@ The Future of Digital Cash for Everyday Commerce and Transportation
 
 ECashPod is a production ready, QR based point of sale system that brings secure, instant, and offline capable digital cash to real world commerce. Designed for small businesses, transportation systems, public markets, kiosks, and everyday transactions, ECashPod redefines how digital money works: fast, reliable, and independent of traditional banking systems.
 
-The ECashPod orange theme color was specifically designed for enterprise and institutional presentations, including demonstrations prepared for Philippine financial organizations such as UnionBank, giving the platform a recognizable fintech identity.
+The ECashPod orange theme was created as a presentation grade visual identity for institutional demonstrations with UnionBank of the Philippines, shaping a distinct fintech aesthetic aligned with banking environments and professional financial showcases.
 
 Powered by a revolutionary entropy chaos algorithm, ECashPod enables transactions without blockchain, cryptographic keys, or centralized ledgers, giving merchants, operators, and developers a truly offline first digital cash ecosystem.
 
