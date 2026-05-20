@@ -1,14 +1,14 @@
 # ECashPod
 
-The Future of Digital Cash for Commerce, Kiosks, Casinos, and Transportation
+The Future of Digital Cash for Everyday Commerce and Transportation
 
 ![ECashPod](https://img.shields.io/badge/status-production-green)
 ![Offline](https://img.shields.io/badge/offline-supported-blue)
 ![License](https://img.shields.io/badge/license-open--source-lightgrey)
 
-ECashPod is a production ready, QR based point of sale system that brings secure, instant, and offline capable digital cash to real world commerce. Trusted by e commerce platforms, retail stores, kiosks, casinos, e bingo halls, and transportation systems worldwide, ECashPod redefines how digital money works: fast, reliable, and independent of traditional banking systems.
+ECashPod is a production ready, QR based point of sale system that brings secure, instant, and offline capable digital cash to real world commerce. Designed for small businesses, transportation systems, public markets, kiosks, and everyday transactions, ECashPod redefines how digital money works: fast, reliable, and independent of traditional banking systems.
 
-The ECashPod orange theme color was specifically designed for enterprise and institutional presentations, including demonstrations for Philippine financial organizations such as UnionBank, giving the platform a professional fintech identity.
+The ECashPod orange theme color was specifically designed for enterprise and institutional presentations, including demonstrations prepared for Philippine financial organizations such as UnionBank, giving the platform a recognizable fintech identity.
 
 Powered by a revolutionary entropy chaos algorithm, ECashPod enables transactions without blockchain, cryptographic keys, or centralized ledgers, giving merchants, operators, and developers a truly offline first digital cash ecosystem.
 
@@ -22,13 +22,11 @@ Displays account number, protocol number, account name, currency, and account in
 
 <img width="830" height="468" alt="Screenshot 2026-05-20 222059" src="https://github.com/user-attachments/assets/a8f3dec9-70ad-400b-aed7-4df7981ba25f" />
 
-
 ### Screenshot #2 - Balance
 
 Displays the selected currency balance.
 
 <img width="831" height="469" alt="Screenshot 2026-05-20 222050" src="https://github.com/user-attachments/assets/58413da8-e238-4ff4-a399-d71fdeab30ed" />
-
 
 ### Screenshot #3 - Options
 
@@ -36,16 +34,15 @@ Share account QR codes, scan QR codes, and view transaction history.
 
 <img width="828" height="466" alt="Screenshot 2026-05-20 222109" src="https://github.com/user-attachments/assets/7ba13705-9ffb-4543-91d3-670119f22726" />
 
-
 ---
 
 ## Key Highlights
 
 ### Real World Adoption
 
-- Trusted by retail stores, e commerce shops, kiosks, casinos, e bingo platforms, and transportation systems.
-- Used daily by merchants and operators in high volume environments.
-- Proven through millions of offline and online transactions.
+- Designed for retail stores, kiosks, transportation systems, and local commerce.
+- Ideal for sari sari stores, sidewalk vendors, public markets, and small businesses.
+- Built for daily high volume transactions in real world environments.
 
 ### QR Based Cash Transactions
 
@@ -54,7 +51,7 @@ Share account QR codes, scan QR codes, and view transaction history.
 
 ### Offline First Architecture
 
-- Works 100% offline, ideal for remote areas, rural markets, off grid locations, and high density events.
+- Works 100% offline, ideal for remote areas, rural markets, off grid locations, and crowded public environments.
 - Transactions complete without internet, cloud servers, or network validation.
 - Supports direct device to device QR and optical transfers with deterministic integrity.
 
@@ -93,30 +90,32 @@ Share account QR codes, scan QR codes, and view transaction history.
 
 ## Why Developers Love ECashPod
 
-- Open source, modular, and highly integratable for wallets, merchant platforms, and custom financial systems.
+- Open source, modular, and highly integratable for wallets, merchant platforms, and transportation systems.
 - Lightweight and deterministic, suitable for web, mobile, and embedded devices.
 - Offline first design ensures resilience in remote, high traffic, or low connectivity environments.
 - Extensible for new platforms, loyalty programs, and experimental financial infrastructure.
 
 ---
 
-## Why Investors Should Care
+## Why ECashPod Matters
 
-- Builds the foundation for future digital fiat systems.
-- Proven, production ready, and actively used across multiple industries.
-- Offline, resilient, and scalable for global adoption.
-- Enables commerce beyond traditional banking infrastructure.
+- Creates a practical foundation for offline capable digital fiat systems.
+- Designed for real world accessibility and low infrastructure environments.
+- Enables reliable commerce beyond traditional banking limitations.
+- Supports communities where internet connectivity is inconsistent or unavailable.
 
 ---
 
 ## Use Cases
 
-- Retail and E Commerce
+- Retail Stores and Small Businesses
+- Sari Sari Stores and Public Market Vendors
 - Kiosks and Vending Machines
-- Casinos and E Bingo Platforms
-- Transportation and Ticketing
+- Jeepney Fare Collection
+- Bus and Train Ticketing
 - Rural and Off Grid Communities
-- Disaster Relief and Humanitarian Operations
+- Community Events and Temporary Stalls
+- Disaster Relief and Emergency Transactions
 
 ---
 
