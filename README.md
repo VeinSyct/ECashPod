@@ -1,6 +1,6 @@
 # ECashPod
 
-<img width="1536" height="1024" alt="78a0ffdd-e233-404a-b8e7-44827e0abf9e" src="https://github.com/user-attachments/assets/30c3955a-48d8-4cf6-a5d2-0051493c25b4" />
+<img width="1536" height="1024" alt="02977546-5440-4683-9ac5-e9f74fa56eff" src="https://github.com/user-attachments/assets/5ac906ba-a16f-4b90-94dd-cd822f01e2ca" />
 
 The Future of Digital Cash for Everyday Commerce and Transportation
 
@@ -19,6 +19,8 @@ Powered by a deterministic entropy chaos model, ECashPod enables transactions wi
 ---
 
 ## System Overview
+
+<img width="1536" height="1024" alt="78a0ffdd-e233-404a-b8e7-44827e0abf9e" src="https://github.com/user-attachments/assets/30c3955a-48d8-4cf6-a5d2-0051493c25b4" />
 
 ECashPod operates as a peer based transaction system where value is transferred directly between devices using QR based data exchange.
 
