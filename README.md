@@ -20,19 +20,22 @@ Powered by a revolutionary entropy chaos algorithm, ECashPod enables transaction
 
 Displays account number, protocol number, account name, currency, and account information.
 
-<img width="729" height="408" alt="Settings" src="https://github.com/user-attachments/assets/5b4147aa-9f8d-4d2b-9295-56ede5a6126e" />
+<img width="830" height="468" alt="Screenshot 2026-05-20 222059" src="https://github.com/user-attachments/assets/a8f3dec9-70ad-400b-aed7-4df7981ba25f" />
+
 
 ### Screenshot #2 - Balance
 
 Displays the selected currency balance.
 
-<img width="731" height="409" alt="Balance" src="https://github.com/user-attachments/assets/c6c5f9ec-8abe-4823-8a5d-5f9a953033a2" />
+<img width="831" height="469" alt="Screenshot 2026-05-20 222050" src="https://github.com/user-attachments/assets/58413da8-e238-4ff4-a399-d71fdeab30ed" />
+
 
 ### Screenshot #3 - Options
 
 Share account QR codes, scan QR codes, and view transaction history.
 
-<img width="729" height="408" alt="Options" src="https://github.com/user-attachments/assets/cae669a0-7f73-4309-8c3a-bf01e04fa171" />
+<img width="828" height="466" alt="Screenshot 2026-05-20 222109" src="https://github.com/user-attachments/assets/7ba13705-9ffb-4543-91d3-670119f22726" />
+
 
 ---
 
