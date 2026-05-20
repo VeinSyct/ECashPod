@@ -1,5 +1,7 @@
 # ECashPod
 
+<img width="1536" height="1024" alt="78a0ffdd-e233-404a-b8e7-44827e0abf9e" src="https://github.com/user-attachments/assets/30c3955a-48d8-4cf6-a5d2-0051493c25b4" />
+
 The Future of Digital Cash for Everyday Commerce and Transportation
 
 ![ECashPod](https://img.shields.io/badge/status-production-green)
